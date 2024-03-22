@@ -1,8 +1,8 @@
-// File: C:\Users\Lenovo\Desktop\oodlab5\nextjs-dashboard\app\layout.tsx
-import * as entry from '../../../app/layout.js'
+// File: C:\Users\Lenovo\Desktop\oodlab5\nextjs-dashboard\app\dashboard\layout.tsx
+import * as entry from '../../../../app/dashboard/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../app/layout.js')
+type TEntry = typeof import('../../../../app/dashboard/layout.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
